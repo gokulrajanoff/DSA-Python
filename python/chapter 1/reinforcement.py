@@ -28,7 +28,7 @@ def is_even_StringWay(k):
 print('is_even_Tricky',is_even_StringWay(68))
 print('is_even_Tricky',is_even_StringWay(55))
 
-# without using math operation
+# without using bit operation
 def is_even_BitWay(k):
     return ((k & 1) == 0) if 'even' else 'odd';
 
